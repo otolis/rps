@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Sciscors</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <button id="rockButton">Rock</button>
     <button id="paperButton">Paper</button>
-    <button id="sciButton">Sciscors</button>
+    <button id="sciButton">Scissors</button>
     <div id="container"></div>
 
     <h1>Your Choice: <span id="playerChoice">None</span></h1>
-    <h1>Computer Choice:<span id="computerChoice">None</span></h1>
-    <h1>Results: <span id = "results">None</span></h1>
+    <h1>Computer Choice: <span id="computerChoice">None</span></h1>
+    <h1>Results: <span id="results">None</span></h1>
     
+    <div id="scoreboard">
+        <h2>Scoreboard</h2>
+        <p>Player Wins: <span id="playerWins">0</span></p>
+        <p>Computer Wins: <span id="computerWins">0</span></p>
+        <p>Ties: <span id="ties">0</span></p>
+    </div>
 
     <script src="rps.js"></script>
 </body>
